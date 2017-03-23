@@ -15,7 +15,7 @@ username is string = INIRead("WS","user_name","",fWebDir()+"\Configuraciones.ini
 password is string = INIRead("WS","password","",fWebDir()+"\Configuraciones.ini")
 ```
 
-##Timbrar CFDI
+## Timbrar CFDI
 Para consumir el método de timbrar_cfdi, es necesario enviar las credenciales asignadas, y enviar el xml del cfdi a timbrar convertido a cadena en base64, como se muestra en seguida:
 ```
 xmlfilePath is string = fWebDir() + "\example.xml"
@@ -42,7 +42,7 @@ END
 ```
 
 
-##Cancelar CFDI
+## Cancelar CFDI
 Para enviar un CFDI a cancelar es necesario enviar las credenciales asignadas, el RFC del Emisor, el UUID del CFDI a cancelar, el archivo PFX convertido a una cadena en base64 y el password del archivo PFX.
 
 Para agregar un UUID basta con instanciar un objeto de tipo `uuid` de la siguiente forma:
