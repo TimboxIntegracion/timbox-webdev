@@ -3,9 +3,9 @@ Ejemplo con la integración al Webservice de Timbox
 
 Se deberá importar la URL del WSDL en la sección de Webservices, para hacer uso de las instancias
 
-- [Timbox Pruebas](https://staging.ws.timbox.com.mx/timbrado/wsdl)
+- [Timbox Pruebas](https://staging.ws.timbox.com.mx/timbrado_cfdi33/wsdl)
 
-- [Timbox Producción](https://sistema.timbox.com.mx/timbrado/wsdl)
+- [Timbox Producción](https://sistema.timbox.com.mx/timbrado_cfdi33/wsdl)
 
 
 Para almacenar las credenciales se puede usar un archivo .INI y recuperarlas de la siguiente forma
